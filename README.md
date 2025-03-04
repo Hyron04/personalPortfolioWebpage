@@ -11,6 +11,7 @@ This is a personal portfolio webpage to showcase my projects and provide contact
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contact](#contact)
+- [Credits](#credits)
 
 ## Demo
 
@@ -57,6 +58,10 @@ If you have any questions or suggestions, feel free to contact me:
 
 - GitHub: [Hyron04](https://github.com/Hyron04)
 - LinkedIn: [Jordi Lucio](https://www.linkedin.com/in/jordi-lucio/)
+
+## Credits
+
+- Icon used is from [Icon by Ehtisham Abid](https://www.freepik.com/icon/resume_11389408#fromView=search&page=1&position=7&uuid=41742a88-875c-471e-b031-45c13135c9d5)
 
 ---
 
