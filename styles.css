@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f0f2f5;
+    color: #333;
 }
 
 h1, h2 {
@@ -17,9 +19,10 @@ a {
 
 /* Navbar styles */
 .nav {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-list {
@@ -31,31 +34,41 @@ a {
 .nav-list li a {
     color: white;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #ffdd57;
 }
 
 /* Welcome section styles */
 .welcomeSection {
     text-align: center;
     padding: 5rem 1rem;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .welcomeSection h1 {
     font-size: 3rem;
+    color: #007bff;
 }
 
 .welcomeSection p {
     font-size: 1.5rem;
+    color: #555;
 }
 
 /* Projects section styles */
 .project-section {
     padding: 5rem 1rem;
+    background-color: #f9f9f9;
 }
 
 .project-section-header {
     text-align: center;
     margin-bottom: 2rem;
+    color: #007bff;
 }
 
 .projects-grid {
@@ -65,32 +78,54 @@ a {
 }
 
 .project-tile {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project-tile:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-title {
     padding: 1rem;
     font-size: 1.2rem;
+    color: #007bff;
+}
+
+.additionalProjects {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+    
+}
+
+.additionalProjects:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 /* Contact section styles */
 .contactSection {
     padding: 5rem 1rem;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section-header {
     text-align: center;
     margin-bottom: 2rem;
+    color: #007bff;
 }
 
 .contact-links {
@@ -104,20 +139,22 @@ a {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .contact-details:hover {
-    background-color: #555;
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     text-align: center;
     padding: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
